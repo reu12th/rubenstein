@@ -4,9 +4,12 @@ function emailSend(){
 	var email = document.getElementById('email').value;
 	var body = document.getElementById('body').value;
 
-	var messageBody = "Name " + userName +
-	"<br/> Email: " + email +
-	"<br/> Body: " + body;
+	var messageBody = "<div style='font-family: Poppins, sans-serif; color: #75a1ff;'>" +
+	"<p style='font-size: 1.5rem; font-weight: 600;'>Name: " + userName + "</p>" +
+	"<p style='font-size: 1.5rem; font-weight: 600;'>Email: " + email + "</p>" +
+	"<p style='font-size: 1.5rem; font-weight: 600;'>Body: " + body + "</p>" +
+	"</div>";
+
 	Email.send({
     Host : "smtp.elasticemail.com",
     Username : "reu12th@gmail.com",
