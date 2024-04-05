@@ -1,0 +1,5 @@
+﻿{
+  "Description": "Domain ownership verification file for Microsoft 365 - place in the website root",
+  "Domain": "rubenstein.vercel.app",
+  "Id": "01f879fc-e873-40b6-a19f-2af7c230066f"
+}
